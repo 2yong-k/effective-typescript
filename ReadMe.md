@@ -1,1 +1,1 @@
-EFFECTIVE TYPESCRIPT STUDY
+# effective-typescript
