@@ -19,8 +19,10 @@ const book: Book = parseYAML(`
     name: Wuthering Heights
     author: Emily Bronte
 `);
-// alert(book.title);
-// book('read');
+alert(book.title);
+//          ^?
+book('read');
+//^?
 
 const safeBook = safeParseYAML(`
     name: The Tenant of Wildfelll Hall
